@@ -9,7 +9,6 @@ import awsmobile from "./aws-exports";
 // import { thunkCurrentAuthenticatedUser } from "./thunks/auth";
 import Footer from "./components/Footer";
 import TopNavbar from "./components/TopNavbar"
-
 import "./App.css";
 require("typeface-quicksand");
 
@@ -22,7 +21,7 @@ const theme = createMuiTheme({
         fontFamily: "'Quicksand', sans-serif;"
     },
     palette: {
-        primary: {
+        // primary: {
             // main: "#6200EE"
             // main: '#9c27b0'
             main: '#3700B3'
